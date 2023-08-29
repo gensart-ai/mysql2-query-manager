@@ -1,0 +1,48 @@
+{
+  "name": "mysql2-query-manager",
+  "version": "1.0.0",
+  "description": "🍀 MySQL Query Manager for Node JS. For you who have codeigniter4-querybuilder pain, i know.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "nodemon --ext \"ts,json\" --exec \"ts-node --esm ./src/index.ts\"",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [
+    "mysql",
+    "mysql-query-builder",
+    "mysql2",
+    "query-builder",
+    "query",
+    "sql",
+    "mysql-builder",
+    "mysql-orm",
+    "orm",
+    "mysql-orm-builder",
+    "mysql-node-js",
+    "typed",
+    "sql-query-builder",
+    "sql-builder"
+  ],
+  "author": "gensart",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-typescript": "^7.22.11",
+    "@jest/globals": "^29.6.4",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.5.6",
+    "babel-jest": "^29.6.4",
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  }
+}
